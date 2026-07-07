@@ -8,8 +8,8 @@
 set -e
 
 # Git identity
-GIT_USER="Ido"
-GIT_EMAIL="dev.xyzuniverse@gmail.com"
+GIT_USER="kylieeXD"
+GIT_EMAIL="khayloaftck@gmail.com"
 git config --global user.name "$GIT_USER"
 git config --global user.email "$GIT_EMAIL"
 
@@ -43,16 +43,16 @@ case "$1" in
     "gpg")
         if [ ! -d "gpg" ]; then
             mkdir gpg
-            wget https://raw.githubusercontent.com/xyzuniverse/git/main/gpg/public.gpg -O gpg/public.gpg
-            wget https://raw.githubusercontent.com/xyzuniverse/git/main/gpg/private.gpg -O gpg/private.gpg
-            wget https://raw.githubusercontent.com/xyzuniverse/git/main/gpg/trust.gpg -O gpg/trust.gpg
+            wget https://raw.githubusercontent.com/kylieeXD/git/main/gpg/public.gpg -O gpg/public.gpg
+            wget https://raw.githubusercontent.com/kylieeXD/git/main/gpg/private.gpg -O gpg/private.gpg
+            wget https://raw.githubusercontent.com/kylieeXD/git/main/gpg/trust.gpg -O gpg/trust.gpg
 	fi
 
 	# Import GPG keys from repository
 	gpg --import gpg/public.gpg
 	gpg --import gpg/private.gpg
 	gpg --import-ownertrust gpg/trust.gpg
-	git config --global user.signingkey "5235E7FC540FE8B4"
+	git config --global user.signingkey "E2ADC014F4DAEA95"
 	git config --global commit.gpgsign true
 
 	# Add GPG TTY to bashrc

@@ -2,13 +2,13 @@
 
 Usage:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/xyzuniverse/git/main/git)
+bash <(curl -s https://raw.githubusercontent.com/kylieeXD/git/main/git)
 ```
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/xyzuniverse/git/main/git) creds
+bash <(curl -s https://raw.githubusercontent.com/kylieeXD/git/main/git) creds
 ```
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/xyzuniverse/git/main/git) gpg
+bash <(curl -s https://raw.githubusercontent.com/kylieeXD/git/main/git) gpg
 ```
