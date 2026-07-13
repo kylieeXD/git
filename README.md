@@ -12,3 +12,7 @@ bash <(curl -s https://raw.githubusercontent.com/kylieeXD/git/main/git) creds
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/kylieeXD/git/main/git) gpg
 ```
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/kylieeXD/git/main/setup.sh)
+```
